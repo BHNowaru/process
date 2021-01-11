@@ -1,7 +1,5 @@
 # Todo
 
----
-
 * Bridge ComputerCraft with OpenComputers
   * Requires:
     * Pimped out relay
@@ -21,12 +19,12 @@
     For every computer that connects to the ComputerCraft "server", assign them a UUID through OpenComputers.
     This should allow us to ratelimit people who make too many requests to the server within a givin time period (40s.)
   * Why?:
-    ComputerCraft is required over OpenComputers to handle requests. It's the middleman because
+    * ComputerCraft is required over OpenComputers to handle requests. It's the middleman because
     OpenComputers cannot handle cross-dimensional requests, let alone requests that are further
     that about 40 blocks away without using a server or a linking card, which is less than ideal
     since I would have to make a new computer for each requesting computer.
 
-    Overall, it would be a better idea to simply use OpenComputers' Ender Modem and forward it's
+    * Overall, it would be a better idea to simply use OpenComputers' Ender Modem and forward it's
     complex requests over to the OpenComputers, not only are they cheaper, but.. they're.. cheaper.
     Lol.
 
@@ -44,7 +42,7 @@
     which will execute through Applied Energistics import/export buses. However, due to there being no security with these
     appliances, people will be able to siphon materials from other people.
   * Why?:
-    Programs running in the background without a method to terminate is icky. No thank you.
+    * Programs running in the background without a method to terminate is icky. No thank you.
 
 ---
 
