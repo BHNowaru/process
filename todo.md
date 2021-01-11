@@ -49,4 +49,3 @@
 ## Why write all of this?
 
 A good "why" would be so I don't forget what I'm supposed to be doing, and with a documented end goal, I won't forget what I'm doing.
-

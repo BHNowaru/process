@@ -9,6 +9,7 @@ function reader.prototype:open(filename)
     if (not self.path) then return nil end;
     print(self.path.."/"..filename)
     self.cache = io.open(self.path.."/"..filename);
+    return self.cache and true or false
 end
 
 function reader.prototype:close(filename)
